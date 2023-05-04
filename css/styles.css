@@ -39,8 +39,6 @@ body {
   letter-spacing: var(--letter-spacing);
   background-color: var(--color-white);
   color: var(--color-black);
-  /* es o no necesario el ancho? */
-  /* width: 1600px; */
 }
 
 ul li,
@@ -233,7 +231,6 @@ nav,
 /* ---------------- SECCION HERO ---------------- */
 
 .hero {
-  width: 1600px;
   height: 600px;
   margin: 0 auto;
   padding-top: 200px;
