@@ -452,6 +452,7 @@ footer {
   position: relative;
   width: 370px;
   height: 294px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .picture-text {
@@ -530,12 +531,14 @@ footer {
 
 .client-list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 30px;
 }
 
 .client-item {
   width: 170px;
   height: 81px;
+  flex-basis: calc((100% - 150px) / 6);
 }
 .client-link {
   display: flex;
