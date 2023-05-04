@@ -390,11 +390,13 @@ footer {
 .pictures-list,
 .team-list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 30px;
 }
 .service-item,
 .team-member {
   width: 270px;
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .team,
